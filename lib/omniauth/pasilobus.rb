@@ -4,7 +4,7 @@ require 'omniauth-oauth2'
 module OmniAuth
   module Strategies
     class Pasilobus < OmniAuth::Strategies::OAuth2
-      option :name, :pasilobus
+      option :name, 'pasilobus'
 
       option :client_options, {
         :site => "https://www.pasilobus.com",
