@@ -7,7 +7,7 @@ module OmniAuth
 
       option :client_options, {
         :site => "https://www.pasilobus.com",
-        :authorize_url => "https://www.pasilobus.com/oauth/authorize"
+        :authorize_url => "/oauth/authorize"
       }
 
       uid { raw_info["id"] }
