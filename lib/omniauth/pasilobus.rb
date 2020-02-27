@@ -1,4 +1,3 @@
-require "omniauth/pasilobus/version"
 require 'omniauth-oauth2'
 
 module OmniAuth
