@@ -9,9 +9,7 @@ module OmniAuth
         :site => "https://www.pasilobus.com",
         :authorize_url => "/oauth/authorize"
       }
-
-      provider { 'pasilobus'}
-
+ 
       uid { raw_info["id"] }
 
       info do
