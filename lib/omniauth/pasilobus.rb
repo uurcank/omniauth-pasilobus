@@ -10,6 +10,8 @@ module OmniAuth
         :authorize_url => "/oauth/authorize"
       }
 
+      provider { 'pasilobus'}
+
       uid { raw_info["id"] }
 
       info do
