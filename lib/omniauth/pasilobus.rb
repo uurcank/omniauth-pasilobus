@@ -9,14 +9,14 @@ module OmniAuth
         :site => "https://www.pasilobus.com",
         :authorize_url => "/oauth/authorize"
       }
- 
+
       uid { raw_info["id"] }
 
       info do
         {
           :email => raw_info["email"],
           :name => raw_info["name"],
-          :avatar => raw_info["avatar_url"]
+          :image => raw_info["avatar_url"]
         }
       end
 
