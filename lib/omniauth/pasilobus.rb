@@ -6,7 +6,7 @@ module OmniAuth
       option :name, 'pasilobus'
 
       option :client_options, {
-        :site => "https://www.pasilobus.com",
+        :site => "https://cloud.pasilobus.com",
         :authorize_url => "/oauth/authorize"
       }
 
